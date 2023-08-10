@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Giỏ hàng mua sắm</title>
+  </head>
+  <body>
+    <h1>Giỏ hàng mua sắm</h1>
+
+    <div id="product-list">
+      <div class="product">
+        <h3>Sản phẩm 1</h3>
+        Giá: $
+        <span>10</span>
+        <br />
+        <button class="add-to-cart">Thêm vào giỏ hàng</button>
+      </div>
+      <div class="product">
+        <h3>Sản phẩm 2</h3>
+        Giá: $
+        <span>20</span>
+        <br />
+        <button class="add-to-cart">Thêm vào giỏ hàng</button>
+      </div>
+      <!-- Thêm các sản phẩm khác -->
+    </div>
+
+    <h2>Giỏ hàng của bạn</h2>
+    <div id="cart">
+      <ul id="cart-items"></ul>
+      <span>Tổng tiền: <span id="total-price">$0</span></span>
+      <button id="clear-cart">Xóa giỏ hàng</button>
+    </div>
+
+    <script src="./Cart.js"></script>
+  </body>
+</html>
